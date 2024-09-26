@@ -1,0 +1,75 @@
+/* GetProduct.css */
+
+.get-product-container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 400px; /* Limit the width of the container */
+    margin: 20px auto; /* Center the container horizontally */
+  }
+  
+  .get-product-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .get-product-input-container {
+    display: flex;
+    align-items: center; /* Align input and button horizontally */
+    width: 100%; /* Full width for container */
+  }
+  
+  .get-product-input {
+    width: 70%; /* 70% width for the input */
+    padding: 10px;
+    margin-right: 10px; /* Space between input and button */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .get-product-button {
+    width: 30%; /* 30% width for the button */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .get-product-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .response-container {
+    width: 100%; /* Full width of the container */
+    margin-top: 20px; /* Space above the response container */
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .response-container p {
+    margin: 5px 0;
+  }
+  
+  .json-box {
+    margin-top: 15px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .json-response {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+  }
+  

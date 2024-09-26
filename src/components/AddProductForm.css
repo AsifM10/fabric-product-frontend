@@ -1,0 +1,62 @@
+.form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px auto; /* Center it horizontally */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.response-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #e9f7ef;
+}
+
+.response-container {
+    max-width: 100%; /* Limit width of the response container */
+    overflow-wrap: break-word; /* Break long words to prevent overflow */
+    word-wrap: break-word; /* Older browsers support */
+    white-space: pre-wrap; /* Maintain formatting of the string */
+    background-color: #f8f8f8; /* Optional: background color */
+    padding: 10px; /* Optional: padding for better readability */
+    border: 1px solid #e3dbdb; /* Optional: border for visual separation */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.response-container pre {
+    overflow-x: auto; /* Allow horizontal scrolling for long text */
+}

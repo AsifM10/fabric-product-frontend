@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  margin-left: 220px; /* Adjust this to be greater than the sidebar width */
+  padding: 20px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content p {
+  color: green; /* Change color for success message */
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.response-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  margin: 20px auto; /* Space around the container */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 400px; /* Set a fixed width */
+  text-align: center; /* Center text within the container */
 }
 
-.App-link {
-  color: #61dafb;
+.json-box {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 15px;            /* Padding around the box */
+  border-radius: 8px;      /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-top: 20px;        /* Spacing above the box */
+  text-align: left;        /* Align text to the left */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.json-response {
+  font-weight: bold;
+  font-family: inherit;    /* Ensure it uses the same font as the rest */
+}
+
+.response-container {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-top: 20px;
+  word-wrap: break-word; /* Allow long words to break */
+  max-width: 100%; /* Make sure it doesn't overflow */
+}
+
+.response-container p {
+  margin: 5px 0; /* Adjust spacing between paragraphs */
+  overflow-wrap: break-word; /* Break long text */
+}
+
+.transaction-id {
+  word-break: break-all; /* Break long transaction IDs */
+  white-space: pre-wrap; /* Maintain formatting of long strings */
+}
+
+.transaction-link {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Add space above the link */
+}
+
+.transaction-link a {
+  text-decoration: none; /* Optional: Remove underline from the link */
+  color: #007bff; /* Optional: Link color */
+  font-weight: bold; /* Optional: Bold text */
+}
+
+.transaction-link a:hover {
+  text-decoration: underline; /* Optional: Underline link on hover */
 }
